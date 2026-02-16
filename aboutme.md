@@ -4,12 +4,7 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
+My name is Tran Khoi Nguyen. I'm currently a freshman at VNU-HCM University of Science, majoring in Data Science/Statistics. This is the space where I go through my works, review my courses (& profs), and (some of) my daily life.
 
 ### My story
 
