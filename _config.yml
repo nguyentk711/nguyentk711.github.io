@@ -21,7 +21,7 @@ author: Tran Khoi Nguyen
 
 navbar-links:
   About Me: "aboutme"
-  CV: "facebook.com"
+  CV: facebook.com
 
 ################
 # --- Logo --- #
@@ -48,7 +48,7 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "nguyentrankhoi0711@gmail.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  #rss: true  # remove this line if you don't want to show an RSS link at the bottom
   facebook: nguyen.trankhoi.1690
   github: nguyentk711
   #twitter: daattali
