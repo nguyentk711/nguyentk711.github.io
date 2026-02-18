@@ -15,6 +15,9 @@ title: Nguyen's Little Corner
 # Your name to show in the footer
 author: Tran Khoi Nguyen
 
+# making the blog a seperate page (not the index)
+paginate_path: "/blog/page:num/"
+
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
