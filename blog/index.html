@@ -1,1 +1,23 @@
+---
+layout: page
+title: Blog
+---
 
+{% for post in paginator.posts %}
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+      <h2 class="post-title">{{ post.title }}</h2>
+    </a>
+    <p class="post-meta">Posted on {{ post.date | date: '%B %d, %Y' }}</p>
+    <div class="post-entry">
+      {{ post.excerpt | strip_html | truncatewords: 50 }}
+    </div>
+  </article>
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+  <ul class="pager">
+    {% if paginator.previous_page %}<li class="previous"><a href="{{ paginator.previous_page_path }}">&larr; Newer</a></li>{% endif %}
+    {% if paginator.next_page %}<li class="next"><a href="{{ paginator.next_page_path }}">Older &rarr;</a></li>{% endif %}
+  </ul>
+{% endif %}
