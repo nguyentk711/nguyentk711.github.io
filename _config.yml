@@ -16,6 +16,7 @@ title: Nguyen's Little Corner
 author: Tran Khoi Nguyen
 
 # making the blog a seperate page (not the index)
+permalink: "/blog/:title/"
 paginate_path: "/blog/page:num/"
 
 ###############################################
