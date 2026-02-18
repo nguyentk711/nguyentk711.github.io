@@ -17,6 +17,7 @@ author: Tran Khoi Nguyen
 
 # making the blog a seperate page (not the index)
 permalink: "/blog/:title/"
+paginate: 10
 paginate_path: "/blog/page:num/"
 
 ###############################################
