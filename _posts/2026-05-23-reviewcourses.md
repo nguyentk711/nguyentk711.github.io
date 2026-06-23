@@ -24,4 +24,6 @@ This course is regarded as one of the hardest courses in this Semester, mainly b
 ## About the lecturer and the teaching assistant:
 
 The lecturer is kind of... 
+
+Testing...
 Nguyen.
